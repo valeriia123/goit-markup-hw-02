@@ -93,6 +93,7 @@ color: #404BBF;
 
 /* ============= /HEADER=========== */
 
+
 /* =========SECTION EFFECTIVE========= */
 
 .section-effective {
@@ -108,15 +109,18 @@ color: #FFFFFF;
 .button-order-service {
     color: #ffffff;
     line-height: 1.5;
-    letter-spacing: 0.04em;
     font-weight: 500;
-        background: #4D5AE5;
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
 }
 .button-order-service:focus,
 .button-order-service:hover {
     background-color: #404BBF;
 }
 /* ========= /SECTION EFFECTIVE========= */
+
 
 /* ==========SECTION INFORMATION========== */
 
