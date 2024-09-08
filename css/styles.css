@@ -41,7 +41,7 @@ color: #4d5ae5;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -59,6 +59,7 @@ color: #4d5ae5;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+        line-height: 1.5;
 }
 
 .item-header {
@@ -92,7 +93,6 @@ background-color: #2E2F42;
 }
 .main-title {
 color: #FFF;
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -102,13 +102,7 @@ color: #FFF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button-order-service:focus,
 .button-order-service:hover {
@@ -154,7 +148,7 @@ color: #434455;
 /* ============OUR TEAM============== */
 
 .our-team {
-background-color: #FFFFFF
+background-color: #F4F4FD;
 }
 .title-our-team {
 color: #2E2F42;
@@ -168,18 +162,10 @@ color: #2E2F42;
     text-transform: capitalize;
 }
 .list-our-team {
-    display: inline-flex;
-        padding-bottom: 32px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .item-our-team {
-
+background-color: #FFFFFF;
 }
 .name-our-team {
 color: #2E2F42;
@@ -220,8 +206,8 @@ color: #2E2F42;
     
 }
 .item-portfolio {
-width: 360px;
-height: 420px;
+/* width: 360px;
+height: 420px; */
 }
 .name-photo-portfolio {
 color: #2e2f42;
@@ -247,8 +233,8 @@ color: #2e2f42;
 
 .page-footer {
 background: #2E2F42;
-width: 1440px;
-    height: 312px;
+/* width: 1440px;
+    height: 312px; */
 }
 .page-footer .logo-studio {
     color: #f4f4fd;
