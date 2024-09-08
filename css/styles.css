@@ -165,6 +165,7 @@ color: #2E2F42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 .list-our-team {
     background: #FFFFFF;
@@ -250,7 +251,7 @@ background: #2E2F42;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.15;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 /* ============ /FOOTER============= */
