@@ -31,12 +31,11 @@ color: #4d5ae5;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 .logo-studio {
-    font-family: Raleway;
     color: #2E2F42;
         font-size: 18px;
         font-style: normal;
@@ -53,11 +52,9 @@ color: #4d5ae5;
 }
 .list-header {
     color: #2E2F42;
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.02em;
         line-height: 1.5;
 }
@@ -70,8 +67,10 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
 }
 .item-link:focus,
-.item-link:hover,
-.item-link:active {
+.item-link:hover {
+    color: #404bbf;
+}
+.logo-link:focus {
     color: #404bbf;
 }
 .item-address {
@@ -92,10 +91,11 @@ color: #404BBF;
 background-color: #2E2F42;
 }
 .main-title {
-color: #FFF;
+color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .button-order-service {
     color: #ffffff;
@@ -130,16 +130,15 @@ color: #2e2f42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .paragphrap-information {
 color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* ========== /SECTION INFORMATION======== */
@@ -152,8 +151,6 @@ background-color: #F4F4FD;
 }
 .title-our-team {
 color: #2E2F42;
-    text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -169,20 +166,18 @@ background-color: #FFFFFF;
 }
 .name-our-team {
 color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .description-our-team {
 color: #434455;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* =========== /OUR TEAM============= */
@@ -194,7 +189,6 @@ background: #FFFFFF;
 }
 .title-portfolio {
 color: #2E2F42;
-    text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -211,7 +205,6 @@ height: 420px; */
 }
 .name-photo-portfolio {
 color: #2e2f42;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -220,7 +213,6 @@ color: #2e2f42;
 }
 .p-photo-portfolio {
     color:#434455;       
-     font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
